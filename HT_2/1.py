@@ -1,4 +1,3 @@
 #Task1. Написати скрипт, який конкатенує всі елементи в списку і виведе їх на екран
-list = ['abc', '123', 'def']
-string = ''.join(list)
-print(string)
+the_list = ['groom', 'd8', 'a', '544.2', 'at', 979797]
+print(" ".join(map(str, the_list)))
